@@ -1,5 +1,4 @@
 {
   "installCommand": "cd telephony-mastery-site && npm install",
-  "buildCommand": "cd telephony-mastery-site && npm run build",
-  "outputDirectory": "telephony-mastery-site/.output/public"
+  "buildCommand": "cd telephony-mastery-site && npm run build"
 }
