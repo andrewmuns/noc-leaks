@@ -1,7 +1,5 @@
 {
   "installCommand": "cd telephony-mastery-site && npm install",
   "buildCommand": "cd telephony-mastery-site && npm run build",
-  "outputDirectory": "telephony-mastery-site/.output/public",
-  "framework": "nuxtjs",
-  "rootDirectory": "telephony-mastery-site"
+  "outputDirectory": "telephony-mastery-site/.output/public"
 }
