@@ -1,0 +1,81 @@
+---
+title: "Call Transfer — REFER and Replaces"
+description: "Learn about call transfer — refer and replaces"
+module: "Module 1: Foundations"
+lesson: "48"
+difficulty: "Advanced"
+duration: "7 minutes"
+objectives:
+  - Understand Blind transfer uses REFER with a simple Refer-To target — the B2BUA calls the target and bridges to the existing party
+  - Understand Attended transfer uses REFER with a Replaces parameter — connecting an existing consultation call to the held party
+  - Understand NOTIFY messages report transfer progress using SIP fragments — check these to determine why transfers fail
+  - Understand Transfer is the most common SIP interoperability problem — vendor implementations vary significantly
+  - Understand In B2BUA architectures, the B2BUA handles the transfer internally — media re-bridging is critical
+slug: "call-transfer"
+---
+
+
+## Why Transfers Are Complex
+
+Call transfer seems simple: move a call from one person to another. But in SIP's distributed architecture, it's surprisingly complex. There's no central switch that can just "reconnect the wires." Instead, transfer involves coordinating multiple independent SIP dialogs, each with their own state, and getting them to stitch together seamlessly.
+
+Transfer is also the SIP feature most likely to break across different vendor implementations. The spec is clear, but edge cases abound.
+
+---
+
+## Blind Transfer (Unattended Transfer)
+
+Alice is talking to Bob. Alice wants to transfer Bob to Carol without talking to Carol first.
+
+### The REFER Method
+
+```
+Alice                    Telnyx B2BUA                    Bob
+  |<======== RTP ==========>|<======== RTP ============>|
+  |                          |                            |
+  |------- REFER ----------->|                            |
+  | Refer-To: carol@...      |                            |
+  |<------ 202 Accepted -----|                            |
+  |                          |                            |
+  |                          |------- INVITE ------------>| Carol
+  |                          |<------ 200 OK -------------|
+  |                          |------- ACK --------------->|
+  |                          |                            |
+  |<------ NOTIFY -----------|                            |
+  | (sipfrag: SIP/2.0 200)   |                            |
+  |------- 200 OK (NOTIFY)->|                            |
+  |                          |                            |
+  |------- BYE ------------->|  (Alice disconnects)       |
+  |<------ 200 OK -----------|                            |
+```
+
+**Step by step:**
+1. Alice sends **REFER** within the existing dialog to Telnyx, with `Refer-To: <sip:carol@example.com>` header
+2. Telnyx responds **202 Accepted** — "I'll try to do what you asked"
+3. Telnyx creates a **new INVITE** to Carol (this is a new call leg)
+4. Telnyx bridges Bob's existing media to Carol's new media
+5. Telnyx sends **NOTIFY** to Alice reporting the outcome (using SIP fragment — the response code from the INVITE to Carol)
+6. Alice hangs up (BYE)
+
+The **NOTIFY** messages use the "refer" event package — they carry SIP fragments that tell Alice whether the transfer succeeded or failed. The `sipfrag` body might contain `SIP/2.0 180 Ringing` (transfer in progress) or `SIP/2.0 200 OK` (transfer succeeded).
+
+### B2BUA Transfer Handling
+
+
+---
+
+## 🔒 Full Course Content Available
+
+This is a preview of the Telephony Mastery Course. The complete lesson includes:
+
+- ✅ Detailed technical explanations
+- ✅ Advanced configuration examples  
+- ✅ Hands-on lab exercises
+- ✅ Real-world troubleshooting scenarios
+- ✅ Practice quizzes and assessments
+
+[**🚀 Unlock Full Course Access**](https://teleponymastery.com/enroll)
+
+---
+
+*Preview shows approximately 25% of the full lesson content.*

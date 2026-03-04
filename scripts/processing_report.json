@@ -1,0 +1,597 @@
+{
+  "processing_summary": {
+    "total_files": 58,
+    "successful": 58,
+    "failed": 0,
+    "files_with_truncated_content": 30
+  },
+  "word_statistics": {
+    "total_words_across_all_files": 16355,
+    "public_words_across_all_files": 14020,
+    "average_file_length": 281,
+    "compression_ratio": "85.7%"
+  },
+  "files_processed": [
+    {
+      "file": "udp-vs-tcp.md",
+      "status": "success",
+      "public_words": 150,
+      "total_words": 150,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/udp-vs-tcp.md",
+      "private_file": "content-processing/private/udp-vs-tcp.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "quality-troubleshooting.md",
+      "status": "success",
+      "public_words": 276,
+      "total_words": 365,
+      "remaining_words": 89,
+      "public_file": "content-processing/public/quality-troubleshooting.md",
+      "private_file": "content-processing/private/quality-troubleshooting.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "jitter-explained.md",
+      "status": "success",
+      "public_words": 256,
+      "total_words": 256,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/jitter-explained.md",
+      "private_file": "content-processing/private/jitter-explained.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "latency-budget.md",
+      "status": "success",
+      "public_words": 235,
+      "total_words": 235,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/latency-budget.md",
+      "private_file": "content-processing/private/latency-budget.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "bgp-incidents.md",
+      "status": "success",
+      "public_words": 285,
+      "total_words": 285,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/bgp-incidents.md",
+      "private_file": "content-processing/private/bgp-incidents.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "sdp-basics.md",
+      "status": "success",
+      "public_words": 264,
+      "total_words": 329,
+      "remaining_words": 68,
+      "public_file": "content-processing/public/sdp-basics.md",
+      "private_file": "content-processing/private/sdp-basics.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "call-hold.md",
+      "status": "success",
+      "public_words": 253,
+      "total_words": 446,
+      "remaining_words": 193,
+      "public_file": "content-processing/public/call-hold.md",
+      "private_file": "content-processing/private/call-hold.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "analog-to-digital.md",
+      "status": "success",
+      "public_words": 281,
+      "total_words": 281,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/analog-to-digital.md",
+      "private_file": "content-processing/private/analog-to-digital.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "g711-codec.md",
+      "status": "success",
+      "public_words": 221,
+      "total_words": 221,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/g711-codec.md",
+      "private_file": "content-processing/private/g711-codec.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "sip-alg-sbc.md",
+      "status": "success",
+      "public_words": 215,
+      "total_words": 215,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/sip-alg-sbc.md",
+      "private_file": "content-processing/private/sip-alg-sbc.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "sip-dialogs.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 446,
+      "remaining_words": 146,
+      "public_file": "content-processing/public/sip-dialogs.md",
+      "private_file": "content-processing/private/sip-dialogs.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "sip-headers.md",
+      "status": "success",
+      "public_words": 289,
+      "total_words": 316,
+      "remaining_words": 27,
+      "public_file": "content-processing/public/sip-headers.md",
+      "private_file": "content-processing/private/sip-headers.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "example-lesson.md",
+      "status": "success",
+      "public_words": 112,
+      "total_words": 112,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/example-lesson.md",
+      "private_file": "content-processing/private/example-lesson.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "ss7-signaling.md",
+      "status": "success",
+      "public_words": 249,
+      "total_words": 249,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/ss7-signaling.md",
+      "private_file": "content-processing/private/ss7-signaling.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "dns-load-balancing.md",
+      "status": "success",
+      "public_words": 266,
+      "total_words": 266,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/dns-load-balancing.md",
+      "private_file": "content-processing/private/dns-load-balancing.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "caller-id-cnam.md",
+      "status": "success",
+      "public_words": 160,
+      "total_words": 160,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/caller-id-cnam.md",
+      "private_file": "content-processing/private/caller-id-cnam.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "sip-response-codes.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 405,
+      "remaining_words": 105,
+      "public_file": "content-processing/public/sip-response-codes.md",
+      "private_file": "content-processing/private/sip-response-codes.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "srtp-encryption.md",
+      "status": "success",
+      "public_words": 242,
+      "total_words": 263,
+      "remaining_words": 21,
+      "public_file": "content-processing/public/srtp-encryption.md",
+      "private_file": "content-processing/private/srtp-encryption.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "sip-authentication.md",
+      "status": "success",
+      "public_words": 280,
+      "total_words": 371,
+      "remaining_words": 91,
+      "public_file": "content-processing/public/sip-authentication.md",
+      "private_file": "content-processing/private/sip-authentication.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "tcp-for-voip.md",
+      "status": "success",
+      "public_words": 281,
+      "total_words": 285,
+      "remaining_words": 4,
+      "public_file": "content-processing/public/tcp-for-voip.md",
+      "private_file": "content-processing/private/tcp-for-voip.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "sip-registration.md",
+      "status": "success",
+      "public_words": 278,
+      "total_words": 376,
+      "remaining_words": 98,
+      "public_file": "content-processing/public/sip-registration.md",
+      "private_file": "content-processing/private/sip-registration.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "ipv6-transition.md",
+      "status": "success",
+      "public_words": 294,
+      "total_words": 330,
+      "remaining_words": 36,
+      "public_file": "content-processing/public/ipv6-transition.md",
+      "private_file": "content-processing/private/ipv6-transition.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "nat-fundamentals.md",
+      "status": "success",
+      "public_words": 174,
+      "total_words": 174,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/nat-fundamentals.md",
+      "private_file": "content-processing/private/nat-fundamentals.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "opus-codec.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 318,
+      "remaining_words": 18,
+      "public_file": "content-processing/public/opus-codec.md",
+      "private_file": "content-processing/private/opus-codec.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "dtmf-signaling.md",
+      "status": "success",
+      "public_words": 246,
+      "total_words": 246,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/dtmf-signaling.md",
+      "private_file": "content-processing/private/dtmf-signaling.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "ipv4-networking.md",
+      "status": "success",
+      "public_words": 223,
+      "total_words": 304,
+      "remaining_words": 81,
+      "public_file": "content-processing/public/ipv4-networking.md",
+      "private_file": "content-processing/private/ipv4-networking.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "codec-negotiation.md",
+      "status": "success",
+      "public_words": 270,
+      "total_words": 329,
+      "remaining_words": 59,
+      "public_file": "content-processing/public/codec-negotiation.md",
+      "private_file": "content-processing/private/codec-negotiation.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "rtcp-feedback.md",
+      "status": "success",
+      "public_words": 169,
+      "total_words": 169,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/rtcp-feedback.md",
+      "private_file": "content-processing/private/rtcp-feedback.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "internet-peering.md",
+      "status": "success",
+      "public_words": 239,
+      "total_words": 315,
+      "remaining_words": 76,
+      "public_file": "content-processing/public/internet-peering.md",
+      "private_file": "content-processing/private/internet-peering.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "tls-encryption.md",
+      "status": "success",
+      "public_words": 177,
+      "total_words": 177,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/tls-encryption.md",
+      "private_file": "content-processing/private/tls-encryption.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "bgp-mechanics.md",
+      "status": "success",
+      "public_words": 238,
+      "total_words": 238,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/bgp-mechanics.md",
+      "private_file": "content-processing/private/bgp-mechanics.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "network-diagnostics.md",
+      "status": "success",
+      "public_words": 203,
+      "total_words": 290,
+      "remaining_words": 87,
+      "public_file": "content-processing/public/network-diagnostics.md",
+      "private_file": "content-processing/private/network-diagnostics.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "circuit-switching.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 303,
+      "remaining_words": 3,
+      "public_file": "content-processing/public/circuit-switching.md",
+      "private_file": "content-processing/private/circuit-switching.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "birth-of-telephony.md",
+      "status": "success",
+      "public_words": 299,
+      "total_words": 385,
+      "remaining_words": 86,
+      "public_file": "content-processing/public/birth-of-telephony.md",
+      "private_file": "content-processing/private/birth-of-telephony.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "packet-loss.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 339,
+      "remaining_words": 39,
+      "public_file": "content-processing/public/packet-loss.md",
+      "private_file": "content-processing/private/packet-loss.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "jitter-buffer.md",
+      "status": "success",
+      "public_words": 195,
+      "total_words": 195,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/jitter-buffer.md",
+      "private_file": "content-processing/private/jitter-buffer.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "basic-call-setup.md",
+      "status": "success",
+      "public_words": 251,
+      "total_words": 335,
+      "remaining_words": 84,
+      "public_file": "content-processing/public/basic-call-setup.md",
+      "private_file": "content-processing/private/basic-call-setup.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "packet-reordering.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 446,
+      "remaining_words": 146,
+      "public_file": "content-processing/public/packet-reordering.md",
+      "private_file": "content-processing/private/packet-reordering.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "packet-switching.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 323,
+      "remaining_words": 23,
+      "public_file": "content-processing/public/packet-switching.md",
+      "private_file": "content-processing/private/packet-switching.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "encryption-models.md",
+      "status": "success",
+      "public_words": 260,
+      "total_words": 306,
+      "remaining_words": 46,
+      "public_file": "content-processing/public/encryption-models.md",
+      "private_file": "content-processing/private/encryption-models.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "rtp-protocol.md",
+      "status": "success",
+      "public_words": 193,
+      "total_words": 193,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/rtp-protocol.md",
+      "private_file": "content-processing/private/rtp-protocol.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "bgp-fundamentals.md",
+      "status": "success",
+      "public_words": 242,
+      "total_words": 242,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/bgp-fundamentals.md",
+      "private_file": "content-processing/private/bgp-fundamentals.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "application-layer.md",
+      "status": "success",
+      "public_words": 269,
+      "total_words": 357,
+      "remaining_words": 88,
+      "public_file": "content-processing/public/application-layer.md",
+      "private_file": "content-processing/private/application-layer.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "call-failures.md",
+      "status": "success",
+      "public_words": 234,
+      "total_words": 318,
+      "remaining_words": 84,
+      "public_file": "content-processing/public/call-failures.md",
+      "private_file": "content-processing/private/call-failures.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "webrtc-basics.md",
+      "status": "success",
+      "public_words": 140,
+      "total_words": 140,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/webrtc-basics.md",
+      "private_file": "content-processing/private/webrtc-basics.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "sip-methods.md",
+      "status": "success",
+      "public_words": 274,
+      "total_words": 399,
+      "remaining_words": 125,
+      "public_file": "content-processing/public/sip-methods.md",
+      "private_file": "content-processing/private/sip-methods.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "two-factor-auth.md",
+      "status": "success",
+      "public_words": 129,
+      "total_words": 129,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/two-factor-auth.md",
+      "private_file": "content-processing/private/two-factor-auth.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "dns-troubleshooting.md",
+      "status": "success",
+      "public_words": 249,
+      "total_words": 249,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/dns-troubleshooting.md",
+      "private_file": "content-processing/private/dns-troubleshooting.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "codec-compression.md",
+      "status": "success",
+      "public_words": 156,
+      "total_words": 156,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/codec-compression.md",
+      "private_file": "content-processing/private/codec-compression.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "number-portability.md",
+      "status": "success",
+      "public_words": 300,
+      "total_words": 438,
+      "remaining_words": 138,
+      "public_file": "content-processing/public/number-portability.md",
+      "private_file": "content-processing/private/number-portability.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "sip-architecture.md",
+      "status": "success",
+      "public_words": 261,
+      "total_words": 261,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/sip-architecture.md",
+      "private_file": "content-processing/private/sip-architecture.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "call-transfer.md",
+      "status": "success",
+      "public_words": 223,
+      "total_words": 274,
+      "remaining_words": 51,
+      "public_file": "content-processing/public/call-transfer.md",
+      "private_file": "content-processing/private/call-transfer.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "qos-limitations.md",
+      "status": "success",
+      "public_words": 299,
+      "total_words": 373,
+      "remaining_words": 74,
+      "public_file": "content-processing/public/qos-limitations.md",
+      "private_file": "content-processing/private/qos-limitations.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "dns-fundamentals.md",
+      "status": "success",
+      "public_words": 198,
+      "total_words": 198,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/dns-fundamentals.md",
+      "private_file": "content-processing/private/dns-fundamentals.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "sample-lesson.md",
+      "status": "success",
+      "public_words": 224,
+      "total_words": 224,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/sample-lesson.md",
+      "private_file": "content-processing/private/sample-lesson.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "voice-quality-metrics.md",
+      "status": "success",
+      "public_words": 280,
+      "total_words": 280,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/voice-quality-metrics.md",
+      "private_file": "content-processing/private/voice-quality-metrics.md",
+      "has_remaining_content": false
+    },
+    {
+      "file": "ethernet-layer2.md",
+      "status": "success",
+      "public_words": 256,
+      "total_words": 408,
+      "remaining_words": 152,
+      "public_file": "content-processing/public/ethernet-layer2.md",
+      "private_file": "content-processing/private/ethernet-layer2.md",
+      "has_remaining_content": true
+    },
+    {
+      "file": "nat-traversal.md",
+      "status": "success",
+      "public_words": 162,
+      "total_words": 162,
+      "remaining_words": 0,
+      "public_file": "content-processing/public/nat-traversal.md",
+      "private_file": "content-processing/private/nat-traversal.md",
+      "has_remaining_content": false
+    }
+  ],
+  "errors": []
+}

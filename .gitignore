@@ -1,0 +1,84 @@
+# ================================
+# SECURITY: NEVER COMMIT FULL CONTENT
+# ================================
+content-full/
+content-private/
+*.full.md
+*.private.md
+*-full.*
+*-private.*
+
+# Content source files (full versions)
+content/**/*.full.md
+content/**/*-full.md
+content/**/*-private.md
+
+# Security keys and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+auth-config.*
+secrets.*
+
+# ================================
+# NUXT BUILD OUTPUTS
+# ================================
+.output
+.nuxt
+.nitro
+.cache
+dist
+
+# ================================
+# NODE DEPENDENCIES
+# ================================
+node_modules
+
+# ================================
+# LOGS
+# ================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ================================
+# OS FILES
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# IDE
+# ================================
+.vscode
+.idea
+
+# ================================
+# CONTENT MANAGEMENT SYSTEM
+# ================================
+content-backup/
+content-staging/
+
+# Build tools temporary files
+build-temp/
+public-content/
+.content-processed/
+
+# Local development databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local config overrides
+nuxt.config.local.ts

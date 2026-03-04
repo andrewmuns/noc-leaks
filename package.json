@@ -1,0 +1,34 @@
+{
+  "name": "telephony-mastery-site",
+  "description": "Telephony Mastery Course Website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run content:process && nuxt build",
+    "build:secure": "npm run security:check && npm run content:process && nuxt build",
+    "dev": "nuxt dev",
+    "dev:secure": "npm run content:process && nuxt dev",
+    "generate": "npm run content:process && nuxt generate",
+    "generate:secure": "npm run security:check && npm run content:process && nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "content:migrate": "node scripts/migrate-content.js",
+    "content:process": "node scripts/process-content.js",
+    "security:check": "node scripts/security-check.js",
+    "security:validate": "npm run security:check && echo '✅ Security validation passed'"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.13.4",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "nuxt": "^3.14.159"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.6.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-black leading-tight;
+    font-family: 'Newsreader', serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-black text-black uppercase tracking-tight leading-none;
+    font-family: 'Inter Flex', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+  
+  h1 { @apply text-5xl md:text-7xl mb-2; }
+  h2 { @apply text-3xl md:text-5xl mb-2; }
+  h3 { @apply text-2xl md:text-3xl mb-2; }
+  h4 { @apply text-xl md:text-2xl mb-2; }
+  
+  p { @apply mb-3 leading-snug text-sm md:text-base; }
+  
+  code, pre {
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  a {
+    @apply text-black hover:text-gray-600 no-underline font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-8 py-4 font-black uppercase text-sm tracking-wide transition-all duration-200 border-2 border-black;
+    font-family: 'Inter Flex', system-ui, sans-serif;
+  }
+  
+  .btn-primary {
+    @apply bg-black text-white hover:bg-gray-800;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-black hover:bg-gray-100;
+  }
+  
+  .card {
+    @apply bg-white p-4 border-2 border-black;
+  }
+  
+  .vintage-badge {
+    @apply bg-black text-white px-4 py-2 text-center font-black uppercase tracking-wider text-xs border-2 border-black;
+    font-family: 'Inter Flex', system-ui, sans-serif;
+  }
+  
+  .directory-header {
+    @apply text-center py-8 border-4 border-black bg-white;
+  }
+  
+  .container-custom {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}

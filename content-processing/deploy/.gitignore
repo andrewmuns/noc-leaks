@@ -1,0 +1,60 @@
+# Telephony Mastery Deployment - Protect Private Content
+#
+# This .gitignore ensures that private content never gets accidentally
+# included in public deployments
+
+# Private content directories (if accidentally copied)
+../private/
+../content/
+../content-processing/private/
+**/private/
+
+# Full content files
+*-full.md
+*-complete.md
+*-private.md
+
+# Processing artifacts
+processing_report.json
+summary_report.json
+*.log
+
+# Environment files
+.env
+.env.*
+anthropic_api_key*
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (if any)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Any files containing 'private' or 'full'
+*private*
+*full*
+*complete*
+
+# Backup files
+*.bak
+*.backup
+*.old

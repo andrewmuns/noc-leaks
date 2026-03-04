@@ -1,0 +1,357 @@
+{
+  "pstn": {
+    "title": "PSTN Fundamentals",
+    "lessons": [
+      {
+        "title": "The Birth of Telephony \u2014 From Bell to the Central Office",
+        "slug": "birth-telephony-bell-central-office",
+        "filename": "birth-telephony-bell-central-office.md"
+      },
+      {
+        "title": "Circuit Switching \u2014 Dedicated Paths and Why They Mattered",
+        "slug": "circuit-switching-dedicated-paths-why-they-mattered",
+        "filename": "circuit-switching-dedicated-paths-why-they-mattered.md"
+      },
+      {
+        "title": "SS7 Signaling \u2014 The Brain of the PSTN",
+        "slug": "ss7-signaling-brain-pstn",
+        "filename": "ss7-signaling-brain-pstn.md"
+      },
+      {
+        "title": "Number Portability and the LNP Database",
+        "slug": "number-portability-lnp-database",
+        "filename": "number-portability-lnp-database.md"
+      }
+    ]
+  },
+  "digital-voice": {
+    "title": "Digital Voice & Codecs",
+    "lessons": [
+      {
+        "title": "Number Lookup and Caller Identity (CNAM)",
+        "slug": "number-lookup-caller-identity-cnam",
+        "filename": "number-lookup-caller-identity-cnam.md"
+      },
+      {
+        "title": "Verify API \u2014 Two-Factor Authentication",
+        "slug": "verify-api-two-factor-authentication",
+        "filename": "verify-api-two-factor-authentication.md"
+      },
+      {
+        "title": "Analog to Digital \u2014 The Nyquist Theorem and PCM",
+        "slug": "analog-digital-nyquist-theorem-pcm",
+        "filename": "analog-digital-nyquist-theorem-pcm.md"
+      },
+      {
+        "title": "G.711 \u2014 The Universal Codec",
+        "slug": "g711-universal-codec",
+        "filename": "g711-universal-codec.md"
+      },
+      {
+        "title": "Compressed Codecs \u2014 G.729, G.722, and Why Compression Matters",
+        "slug": "compressed-codecs-g729-g722-why-compression-matters",
+        "filename": "compressed-codecs-g729-g722-why-compression-matters.md"
+      },
+      {
+        "title": "Opus \u2014 The Modern Codec and Why It Won",
+        "slug": "opus-modern-codec-why-it-won",
+        "filename": "opus-modern-codec-why-it-won.md"
+      },
+      {
+        "title": "Voice Quality Metrics \u2014 MOS, PESQ, POLQA, and R-Factor",
+        "slug": "voice-quality-metrics-mos-pesq-polqa-r-factor",
+        "filename": "voice-quality-metrics-mos-pesq-polqa-r-factor.md"
+      }
+    ]
+  },
+  "sip-protocol": {
+    "title": "SIP Protocol",
+    "lessons": [
+      {
+        "title": "SIP Architecture \u2014 Endpoints, Proxies, Registrars, and B2BUAs",
+        "slug": "sip-architecture-endpoints-proxies-registrars-b2buas",
+        "filename": "sip-architecture-endpoints-proxies-registrars-b2buas.md"
+      },
+      {
+        "title": "SIP Methods \u2014 INVITE, REGISTER, BYE, and Beyond",
+        "slug": "sip-methods-invite-register-bye-beyond",
+        "filename": "sip-methods-invite-register-bye-beyond.md"
+      },
+      {
+        "title": "SIP Headers \u2014 The Essential Ones and What They Tell You",
+        "slug": "sip-headers-essential-ones-what-they-tell-you",
+        "filename": "sip-headers-essential-ones-what-they-tell-you.md"
+      },
+      {
+        "title": "SIP Response Codes \u2014 What Every Code Means",
+        "slug": "sip-response-codes-what-every-code-means",
+        "filename": "sip-response-codes-what-every-code-means.md"
+      },
+      {
+        "title": "SIP Dialogs and Transactions \u2014 Understanding State",
+        "slug": "sip-dialogs-transactions-understanding-state",
+        "filename": "sip-dialogs-transactions-understanding-state.md"
+      },
+      {
+        "title": "SIP Registration \u2014 How Endpoints Make Themselves Reachable",
+        "slug": "sip-registration-how-endpoints-make-themselves-reachable",
+        "filename": "sip-registration-how-endpoints-make-themselves-reachable.md"
+      },
+      {
+        "title": "SIP Authentication \u2014 Digest Auth, TLS, and IP-Based Auth",
+        "slug": "sip-authentication-digest-auth-tls-ip-based-auth",
+        "filename": "sip-authentication-digest-auth-tls-ip-based-auth.md"
+      }
+    ]
+  },
+  "sip-call-flows": {
+    "title": "SIP Call Flows",
+    "lessons": [
+      {
+        "title": "Basic Call Setup \u2014 INVITE to 200 OK to BYE",
+        "slug": "basic-call-setup-invite-200-ok-bye",
+        "filename": "basic-call-setup-invite-200-ok-bye.md"
+      },
+      {
+        "title": "Call Failures \u2014 CANCEL, Timeouts, and Error Responses",
+        "slug": "call-failures-cancel-timeouts-error-responses",
+        "filename": "call-failures-cancel-timeouts-error-responses.md"
+      },
+      {
+        "title": "Call Transfer \u2014 REFER and Replaces",
+        "slug": "call-transfer-refer-replaces",
+        "filename": "call-transfer-refer-replaces.md"
+      },
+      {
+        "title": "Call Hold, Resume, and Re-INVITE",
+        "slug": "call-hold-resume-re-invite",
+        "filename": "call-hold-resume-re-invite.md"
+      }
+    ]
+  },
+  "quality": {
+    "title": "Voice Quality",
+    "lessons": [
+      {
+        "title": "Latency Budget \u2014 Sources of Delay in a VoIP Call",
+        "slug": "latency-budget-sources-delay-voip-call",
+        "filename": "latency-budget-sources-delay-voip-call.md"
+      },
+      {
+        "title": "Jitter \u2014 Why Packets Arrive at Irregular Intervals",
+        "slug": "jitter-why-packets-arrive-irregular-intervals",
+        "filename": "jitter-why-packets-arrive-irregular-intervals.md"
+      },
+      {
+        "title": "The Jitter Buffer \u2014 Smoothing Out Packet Arrival Variation",
+        "slug": "jitter-buffer-smoothing-out-packet-arrival-variation",
+        "filename": "jitter-buffer-smoothing-out-packet-arrival-variation.md"
+      },
+      {
+        "title": "Packet Loss \u2014 Causes, Effects, and Measurement",
+        "slug": "packet-loss-causes-effects-measurement",
+        "filename": "packet-loss-causes-effects-measurement.md"
+      },
+      {
+        "title": "Packet Reordering, Duplication, and Their Impact",
+        "slug": "packet-reordering-duplication-their-impact",
+        "filename": "packet-reordering-duplication-their-impact.md"
+      }
+    ]
+  },
+  "security": {
+    "title": "Security & Encryption",
+    "lessons": [
+      {
+        "title": "SRTP \u2014 Encrypting RTP Media Streams",
+        "slug": "srtp-encrypting-rtp-media-streams",
+        "filename": "srtp-encrypting-rtp-media-streams.md"
+      },
+      {
+        "title": "End-to-End vs Hop-by-Hop Encryption",
+        "slug": "end-end-vs-hop-hop-encryption",
+        "filename": "end-end-vs-hop-hop-encryption.md"
+      }
+    ]
+  },
+  "nat": {
+    "title": "NAT & Firewall Traversal",
+    "lessons": [
+      {
+        "title": "NAT Fundamentals \u2014 How and Why NAT Works",
+        "slug": "nat-fundamentals-how-why-nat-works",
+        "filename": "nat-fundamentals-how-why-nat-works.md"
+      },
+      {
+        "title": "NAT Traversal for SIP and RTP \u2014 The Core Problem",
+        "slug": "nat-traversal-sip-rtp-core-problem",
+        "filename": "nat-traversal-sip-rtp-core-problem.md"
+      },
+      {
+        "title": "SIP ALG, Session Border Controllers, and Media Anchoring",
+        "slug": "sip-alg-session-border-controllers-media-anchoring",
+        "filename": "sip-alg-session-border-controllers-media-anchoring.md"
+      }
+    ]
+  },
+  "troubleshooting": {
+    "title": "Troubleshooting",
+    "lessons": [
+      {
+        "title": "Systematic Call Quality Troubleshooting",
+        "slug": "systematic-call-quality-troubleshooting",
+        "filename": "systematic-call-quality-troubleshooting.md"
+      },
+      {
+        "title": "Network Diagnostics \u2014 Traceroute, MTR, and Path Analysis",
+        "slug": "network-diagnostics-traceroute-mtr-path-analysis",
+        "filename": "network-diagnostics-traceroute-mtr-path-analysis.md"
+      }
+    ]
+  },
+  "rtp-rtcp": {
+    "title": "RTP & RTCP",
+    "lessons": [
+      {
+        "title": "RTP \u2014 Real-time Transport Protocol Deep Dive",
+        "slug": "rtp-real-time-transport-protocol-deep-dive",
+        "filename": "rtp-real-time-transport-protocol-deep-dive.md"
+      },
+      {
+        "title": "RTCP \u2014 Feedback, Quality Reporting, and Congestion Control",
+        "slug": "rtcp-feedback-quality-reporting-congestion-control",
+        "filename": "rtcp-feedback-quality-reporting-congestion-control.md"
+      },
+      {
+        "title": "DTMF \u2014 RFC 2833/4733 Telephone Events vs. In-Band Detection",
+        "slug": "dtmf-rfc-28334733-telephone-events-vs-band-detection",
+        "filename": "dtmf-rfc-28334733-telephone-events-vs-band-detection.md"
+      }
+    ]
+  },
+  "protocol-stack": {
+    "title": "Protocol Stack",
+    "lessons": [
+      {
+        "title": "Ethernet and Layer 2 \u2014 Frames, MACs, VLANs, and Switching",
+        "slug": "ethernet-layer-2-frames-macs-vlans-switching",
+        "filename": "ethernet-layer-2-frames-macs-vlans-switching.md"
+      },
+      {
+        "title": "IPv4 \u2014 Addressing, Subnetting, and the IP Header",
+        "slug": "ipv4-addressing-subnetting-ip-header",
+        "filename": "ipv4-addressing-subnetting-ip-header.md"
+      },
+      {
+        "title": "IPv6 \u2014 Why It Exists and What Changes",
+        "slug": "ipv6-why-it-exists-what-changes",
+        "filename": "ipv6-why-it-exists-what-changes.md"
+      },
+      {
+        "title": "UDP \u2014 Why Real-Time Traffic Chooses Unreliability",
+        "slug": "udp-why-real-time-traffic-chooses-unreliability",
+        "filename": "udp-why-real-time-traffic-chooses-unreliability.md"
+      },
+      {
+        "title": "TCP \u2014 Reliability, Congestion Control, and SIP over TCP/TLS",
+        "slug": "tcp-reliability-congestion-control-sip-over-tcptls",
+        "filename": "tcp-reliability-congestion-control-sip-over-tcptls.md"
+      },
+      {
+        "title": "TLS \u2014 How Encryption Works for SIP and HTTPS",
+        "slug": "tls-how-encryption-works-sip-https",
+        "filename": "tls-how-encryption-works-sip-https.md"
+      },
+      {
+        "title": "The Application Layer \u2014 HTTP, WebSockets, and gRPC",
+        "slug": "application-layer-http-websockets-grpc",
+        "filename": "application-layer-http-websockets-grpc.md"
+      }
+    ]
+  },
+  "sdp": {
+    "title": "SDP (Session Description Protocol)",
+    "lessons": [
+      {
+        "title": "SDP Structure \u2014 Offer/Answer Model",
+        "slug": "sdp-structure-offeranswer-model",
+        "filename": "sdp-structure-offeranswer-model.md"
+      },
+      {
+        "title": "Codec Negotiation and Media Interworking",
+        "slug": "codec-negotiation-media-interworking",
+        "filename": "codec-negotiation-media-interworking.md"
+      }
+    ]
+  },
+  "bgp": {
+    "title": "BGP & Routing",
+    "lessons": [
+      {
+        "title": "Autonomous Systems and Internet Routing Fundamentals",
+        "slug": "autonomous-systems-internet-routing-fundamentals",
+        "filename": "autonomous-systems-internet-routing-fundamentals.md"
+      },
+      {
+        "title": "BGP Mechanics \u2014 Sessions, Updates, and Path Selection",
+        "slug": "bgp-mechanics-sessions-updates-path-selection",
+        "filename": "bgp-mechanics-sessions-updates-path-selection.md"
+      },
+      {
+        "title": "Peering, Transit, and Internet Exchange Points",
+        "slug": "peering-transit-internet-exchange-points",
+        "filename": "peering-transit-internet-exchange-points.md"
+      },
+      {
+        "title": "BGP Incidents \u2014 Hijacks, Leaks, and Troubleshooting",
+        "slug": "bgp-incidents-hijacks-leaks-troubleshooting",
+        "filename": "bgp-incidents-hijacks-leaks-troubleshooting.md"
+      }
+    ]
+  },
+  "webrtc": {
+    "title": "WebRTC",
+    "lessons": [
+      {
+        "title": "WebRTC Architecture \u2014 Browser-Based Real-Time Communication",
+        "slug": "webrtc-architecture-browser-based-real-time-communication",
+        "filename": "webrtc-architecture-browser-based-real-time-communication.md"
+      }
+    ]
+  },
+  "dns": {
+    "title": "DNS & Name Resolution",
+    "lessons": [
+      {
+        "title": "DNS Fundamentals \u2014 Resolution, Records, and the Hierarchy",
+        "slug": "dns-fundamentals-resolution-records-hierarchy",
+        "filename": "dns-fundamentals-resolution-records-hierarchy.md"
+      },
+      {
+        "title": "DNS-Based Load Balancing and GeoDNS",
+        "slug": "dns-based-load-balancing-geodns",
+        "filename": "dns-based-load-balancing-geodns.md"
+      },
+      {
+        "title": "DNS Troubleshooting \u2014 dig, nslookup, and Common Failures",
+        "slug": "dns-troubleshooting-dig-nslookup-common-failures",
+        "filename": "dns-troubleshooting-dig-nslookup-common-failures.md"
+      }
+    ]
+  },
+  "packet-switching": {
+    "title": "Packet Switching",
+    "lessons": [
+      {
+        "title": "Packet Switching \u2014 Store-and-Forward and Statistical Multiplexing",
+        "slug": "packet-switching-store-forward-statistical-multiplexing",
+        "filename": "packet-switching-store-forward-statistical-multiplexing.md"
+      },
+      {
+        "title": "Quality of Service (QoS) \u2014 DSCP, Traffic Shaping, and Why It Mostly Doesn't Work on the Internet",
+        "slug": "quality-service-qos-dscp-traffic-shaping-why-it-mostly-doesnt-work-internet",
+        "filename": "quality-service-qos-dscp-traffic-shaping-why-it-mostly-doesnt-work-internet.md"
+      }
+    ]
+  }
+}

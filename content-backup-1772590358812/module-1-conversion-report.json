@@ -1,0 +1,475 @@
+{
+  "conversion_summary": {
+    "total_lessons": 56,
+    "successful": 56,
+    "errors": 0,
+    "error_details": []
+  },
+  "lessons": [
+    {
+      "lesson_num": 1,
+      "title": "The Birth of Telephony \u2014 From Bell to the Central Office",
+      "section": "pstn",
+      "section_name": "The PSTN",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/pstn/lesson-001.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 2,
+      "title": "Circuit Switching \u2014 Dedicated Paths and Why They Mattered",
+      "section": "pstn",
+      "section_name": "The PSTN",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/pstn/lesson-002.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 3,
+      "title": "SS7 Signaling \u2014 The Brain of the PSTN",
+      "section": "pstn",
+      "section_name": "The PSTN",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/pstn/lesson-003.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 4,
+      "title": "Number Portability and the LNP Database",
+      "section": "pstn",
+      "section_name": "The PSTN",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/pstn/lesson-004.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 5,
+      "title": "Number Lookup and Caller Identity (CNAM)",
+      "section": "digital-voice",
+      "section_name": "Digital Voice",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/digital-voice/lesson-005.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 6,
+      "title": "Verify API \u2014 Two-Factor Authentication",
+      "section": "digital-voice",
+      "section_name": "Digital Voice",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/digital-voice/lesson-006.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 7,
+      "title": "Analog to Digital \u2014 The Nyquist Theorem and PCM",
+      "section": "digital-voice",
+      "section_name": "Digital Voice",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/digital-voice/lesson-007.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 8,
+      "title": "G.711 \u2014 The Universal Codec",
+      "section": "digital-voice",
+      "section_name": "Digital Voice",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/digital-voice/lesson-008.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 9,
+      "title": "Compressed Codecs \u2014 G.729, G.722, and Why Compression Matters",
+      "section": "digital-voice",
+      "section_name": "Digital Voice",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/digital-voice/lesson-009.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 10,
+      "title": "Opus \u2014 The Modern Codec and Why It Won",
+      "section": "packet-switching",
+      "section_name": "Packet Switching vs Circuit Switching",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/packet-switching/lesson-010.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 11,
+      "title": "Voice Quality Metrics \u2014 MOS, PESQ, POLQA, and R-Factor",
+      "section": "packet-switching",
+      "section_name": "Packet Switching vs Circuit Switching",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/packet-switching/lesson-011.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 12,
+      "title": "Packet Switching \u2014 Store-and-Forward and Statistical Multiplexing",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-012.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 13,
+      "title": "Quality of Service (QoS) \u2014 DSCP, Traffic Shaping, and Why It Mostly Doesn't Work on the Internet",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-013.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 14,
+      "title": "Ethernet and Layer 2 \u2014 Frames, MACs, VLANs, and Switching",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-014.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 15,
+      "title": "IPv4 \u2014 Addressing, Subnetting, and the IP Header",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-015.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 16,
+      "title": "IPv6 \u2014 Why It Exists and What Changes",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-016.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 17,
+      "title": "UDP \u2014 Why Real-Time Traffic Chooses Unreliability",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-017.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 18,
+      "title": "TCP \u2014 Reliability, Congestion Control, and SIP over TCP/TLS",
+      "section": "protocol-stack",
+      "section_name": "The Internet Protocol Stack",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/protocol-stack/lesson-018.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 19,
+      "title": "TLS \u2014 How Encryption Works for SIP and HTTPS",
+      "section": "dns",
+      "section_name": "DNS Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/dns/lesson-019.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 20,
+      "title": "The Application Layer \u2014 HTTP, WebSockets, and gRPC",
+      "section": "dns",
+      "section_name": "DNS Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/dns/lesson-020.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 21,
+      "title": "DNS Fundamentals \u2014 Resolution, Records, and the Hierarchy",
+      "section": "dns",
+      "section_name": "DNS Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/dns/lesson-021.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 22,
+      "title": "DNS-Based Load Balancing and GeoDNS",
+      "section": "bgp",
+      "section_name": "BGP: How the Internet Routes",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/bgp/lesson-022.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 23,
+      "title": "DNS Troubleshooting \u2014 dig, nslookup, and Common Failures",
+      "section": "bgp",
+      "section_name": "BGP: How the Internet Routes",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/bgp/lesson-023.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 24,
+      "title": "Autonomous Systems and Internet Routing Fundamentals",
+      "section": "bgp",
+      "section_name": "BGP: How the Internet Routes",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/bgp/lesson-024.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 25,
+      "title": "BGP Mechanics \u2014 Sessions, Updates, and Path Selection",
+      "section": "bgp",
+      "section_name": "BGP: How the Internet Routes",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/bgp/lesson-025.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 26,
+      "title": "Peering, Transit, and Internet Exchange Points",
+      "section": "nat",
+      "section_name": "NAT and Its Impact on Real-Time Communications",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/nat/lesson-026.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 27,
+      "title": "BGP Incidents \u2014 Hijacks, Leaks, and Troubleshooting",
+      "section": "nat",
+      "section_name": "NAT and Its Impact on Real-Time Communications",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/nat/lesson-027.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 28,
+      "title": "NAT Fundamentals \u2014 How and Why NAT Works",
+      "section": "nat",
+      "section_name": "NAT and Its Impact on Real-Time Communications",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/nat/lesson-028.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 29,
+      "title": "NAT Traversal for SIP and RTP \u2014 The Core Problem",
+      "section": "rtp-rtcp",
+      "section_name": "RTP and RTCP: Voice/Video over IP",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/rtp-rtcp/lesson-029.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 30,
+      "title": "SIP ALG, Session Border Controllers, and Media Anchoring",
+      "section": "rtp-rtcp",
+      "section_name": "RTP and RTCP: Voice/Video over IP",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/rtp-rtcp/lesson-030.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 31,
+      "title": "RTP \u2014 Real-time Transport Protocol Deep Dive",
+      "section": "rtp-rtcp",
+      "section_name": "RTP and RTCP: Voice/Video over IP",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/rtp-rtcp/lesson-031.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 32,
+      "title": "RTCP \u2014 Feedback, Quality Reporting, and Congestion Control",
+      "section": "quality",
+      "section_name": "Jitter, Latency, and Call Quality",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/quality/lesson-032.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 33,
+      "title": "DTMF \u2014 RFC 2833/4733 Telephone Events vs. In-Band Detection",
+      "section": "quality",
+      "section_name": "Jitter, Latency, and Call Quality",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/quality/lesson-033.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 34,
+      "title": "Latency Budget \u2014 Sources of Delay in a VoIP Call",
+      "section": "quality",
+      "section_name": "Jitter, Latency, and Call Quality",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/quality/lesson-034.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 35,
+      "title": "Jitter \u2014 Why Packets Arrive at Irregular Intervals",
+      "section": "quality",
+      "section_name": "Jitter, Latency, and Call Quality",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/quality/lesson-035.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 36,
+      "title": "The Jitter Buffer \u2014 Smoothing Out Packet Arrival Variation",
+      "section": "quality",
+      "section_name": "Jitter, Latency, and Call Quality",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/quality/lesson-036.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 37,
+      "title": "Packet Loss \u2014 Causes, Effects, and Measurement",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-037.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 38,
+      "title": "Packet Reordering, Duplication, and Their Impact",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-038.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 39,
+      "title": "SIP Architecture \u2014 Endpoints, Proxies, Registrars, and B2BUAs",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-039.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 40,
+      "title": "SIP Methods \u2014 INVITE, REGISTER, BYE, and Beyond",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-040.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 41,
+      "title": "SIP Headers \u2014 The Essential Ones and What They Tell You",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-041.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 42,
+      "title": "SIP Response Codes \u2014 What Every Code Means",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-042.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 43,
+      "title": "SIP Dialogs and Transactions \u2014 Understanding State",
+      "section": "sip-protocol",
+      "section_name": "SIP Protocol Deep Dive",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-protocol/lesson-043.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 44,
+      "title": "SIP Registration \u2014 How Endpoints Make Themselves Reachable",
+      "section": "sip-call-flows",
+      "section_name": "SIP Call Flows",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-call-flows/lesson-044.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 45,
+      "title": "SIP Authentication \u2014 Digest Auth, TLS, and IP-Based Auth",
+      "section": "sip-call-flows",
+      "section_name": "SIP Call Flows",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-call-flows/lesson-045.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 46,
+      "title": "Basic Call Setup \u2014 INVITE to 200 OK to BYE",
+      "section": "sip-call-flows",
+      "section_name": "SIP Call Flows",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-call-flows/lesson-046.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 47,
+      "title": "Call Failures \u2014 CANCEL, Timeouts, and Error Responses",
+      "section": "sip-call-flows",
+      "section_name": "SIP Call Flows",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sip-call-flows/lesson-047.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 48,
+      "title": "Call Transfer \u2014 REFER and Replaces",
+      "section": "sdp",
+      "section_name": "SDP and Media Negotiation",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sdp/lesson-048.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 49,
+      "title": "Call Hold, Resume, and Re-INVITE",
+      "section": "sdp",
+      "section_name": "SDP and Media Negotiation",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/sdp/lesson-049.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 50,
+      "title": "SDP Structure \u2014 Offer/Answer Model",
+      "section": "troubleshooting",
+      "section_name": "Packet Loss, Jitter, and Troubleshooting",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/troubleshooting/lesson-050.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 51,
+      "title": "Codec Negotiation and Media Interworking",
+      "section": "troubleshooting",
+      "section_name": "Packet Loss, Jitter, and Troubleshooting",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/troubleshooting/lesson-051.md",
+      "objectives_count": 5
+    },
+    {
+      "lesson_num": 52,
+      "title": "Systematic Call Quality Troubleshooting",
+      "section": "security",
+      "section_name": "TLS and SRTP: Securing Communications",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/security/lesson-052.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 53,
+      "title": "Network Diagnostics \u2014 Traceroute, MTR, and Path Analysis",
+      "section": "security",
+      "section_name": "TLS and SRTP: Securing Communications",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/security/lesson-053.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 54,
+      "title": "SRTP \u2014 Encrypting RTP Media Streams",
+      "section": "webrtc",
+      "section_name": "WebRTC",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/webrtc/lesson-054.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 55,
+      "title": "End-to-End vs Hop-by-Hop Encryption",
+      "section": "webrtc",
+      "section_name": "WebRTC",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/webrtc/lesson-055.md",
+      "objectives_count": 0
+    },
+    {
+      "lesson_num": 56,
+      "title": "WebRTC Architecture \u2014 Browser-Based Real-Time Communication",
+      "section": "webrtc",
+      "section_name": "WebRTC",
+      "target_file": "/Users/andrewm/Desktop/telephony-mastery/telephony-mastery-site/content/module-1-foundations/webrtc/lesson-056.md",
+      "objectives_count": 0
+    }
+  ],
+  "sections": {
+    "pstn": 4,
+    "digital-voice": 5,
+    "packet-switching": 2,
+    "protocol-stack": 7,
+    "dns": 3,
+    "bgp": 4,
+    "nat": 3,
+    "rtp-rtcp": 3,
+    "quality": 5,
+    "sip-protocol": 7,
+    "sip-call-flows": 4,
+    "sdp": 2,
+    "troubleshooting": 2,
+    "security": 2,
+    "webrtc": 3
+  }
+}

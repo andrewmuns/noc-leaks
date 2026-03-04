@@ -1,0 +1,425 @@
+{
+  "deployment_info": {
+    "created_at": "2026-03-03T19:13:55.739440",
+    "content_type": "telephony_mastery_public",
+    "version": "1.0"
+  },
+  "content_summary": {
+    "public_files": [
+      {
+        "filename": "udp-vs-tcp.md",
+        "title": "UDP \u2014 Why Real-Time Traffic Chooses Unreliability",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "quality-troubleshooting.md",
+        "title": "Systematic Call Quality Troubleshooting",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "jitter-explained.md",
+        "title": "Jitter \u2014 Why Packets Arrive at Irregular Intervals",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "latency-budget.md",
+        "title": "Latency Budget \u2014 Sources of Delay in a VoIP Call",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "bgp-incidents.md",
+        "title": "BGP Incidents \u2014 Hijacks, Leaks, and Troubleshooting",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "sdp-basics.md",
+        "title": "SDP Structure \u2014 Offer/Answer Model",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "call-hold.md",
+        "title": "Untitled",
+        "module": "Unknown",
+        "difficulty": "Unknown",
+        "word_limit": 300
+      },
+      {
+        "filename": "analog-to-digital.md",
+        "title": "Analog to Digital \u2014 The Nyquist Theorem and PCM",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "g711-codec.md",
+        "title": "G.711 \u2014 The Universal Codec",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-alg-sbc.md",
+        "title": "SIP ALG, Session Border Controllers, and Media Anchoring",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-dialogs.md",
+        "title": "SIP Dialogs and Transactions \u2014 Understanding State",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-headers.md",
+        "title": "SIP Headers \u2014 The Essential Ones and What They Tell You",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "example-lesson.md",
+        "title": "Introduction to SIP Protocol",
+        "module": "SIP Protocol Deep Dive",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "ss7-signaling.md",
+        "title": "SS7 Signaling \u2014 The Brain of the PSTN",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "dns-load-balancing.md",
+        "title": "DNS-Based Load Balancing and GeoDNS",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "caller-id-cnam.md",
+        "title": "Number Lookup and Caller Identity (CNAM)",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-response-codes.md",
+        "title": "SIP Response Codes \u2014 What Every Code Means",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "srtp-encryption.md",
+        "title": "SRTP \u2014 Encrypting RTP Media Streams",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-authentication.md",
+        "title": "SIP Authentication \u2014 Digest Auth, TLS, and IP-Based Auth",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "tcp-for-voip.md",
+        "title": "TCP \u2014 Reliability, Congestion Control, and SIP over TCP/TLS",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-registration.md",
+        "title": "SIP Registration \u2014 How Endpoints Make Themselves Reachable",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "ipv6-transition.md",
+        "title": "IPv6 \u2014 Why It Exists and What Changes",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "nat-fundamentals.md",
+        "title": "NAT Fundamentals \u2014 How and Why NAT Works",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "opus-codec.md",
+        "title": "Opus \u2014 The Modern Codec and Why It Won",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "dtmf-signaling.md",
+        "title": "DTMF \u2014 RFC 2833/4733 Telephone Events vs. In-Band Detection",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "ipv4-networking.md",
+        "title": "IPv4 \u2014 Addressing, Subnetting, and the IP Header",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "codec-negotiation.md",
+        "title": "Codec Negotiation and Media Interworking",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "rtcp-feedback.md",
+        "title": "RTCP \u2014 Feedback, Quality Reporting, and Congestion Control",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "internet-peering.md",
+        "title": "Peering, Transit, and Internet Exchange Points",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "tls-encryption.md",
+        "title": "TLS \u2014 How Encryption Works for SIP and HTTPS",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "bgp-mechanics.md",
+        "title": "BGP Mechanics \u2014 Sessions, Updates, and Path Selection",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "network-diagnostics.md",
+        "title": "Network Diagnostics \u2014 Traceroute, MTR, and Path Analysis",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "circuit-switching.md",
+        "title": "Circuit Switching \u2014 Dedicated Paths and Why They Mattered",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "birth-of-telephony.md",
+        "title": "The Birth of Telephony \u2014 From Bell to the Central Office",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "packet-loss.md",
+        "title": "Packet Loss \u2014 Causes, Effects, and Measurement",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "jitter-buffer.md",
+        "title": "The Jitter Buffer \u2014 Smoothing Out Packet Arrival Variation",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "basic-call-setup.md",
+        "title": "Basic Call Setup \u2014 INVITE to 200 OK to BYE",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "packet-reordering.md",
+        "title": "Packet Reordering, Duplication, and Their Impact",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "packet-switching.md",
+        "title": "Packet Switching \u2014 Store-and-Forward and Statistical Multiplexing",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "encryption-models.md",
+        "title": "End-to-End vs Hop-by-Hop Encryption",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "rtp-protocol.md",
+        "title": "RTP \u2014 Real-time Transport Protocol Deep Dive",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "bgp-fundamentals.md",
+        "title": "Autonomous Systems and Internet Routing Fundamentals",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "application-layer.md",
+        "title": "The Application Layer \u2014 HTTP, WebSockets, and gRPC",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "call-failures.md",
+        "title": "Call Failures \u2014 CANCEL, Timeouts, and Error Responses",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "webrtc-basics.md",
+        "title": "WebRTC Architecture \u2014 Browser-Based Real-Time Communication",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-methods.md",
+        "title": "SIP Methods \u2014 INVITE, REGISTER, BYE, and Beyond",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "two-factor-auth.md",
+        "title": "Verify API \u2014 Two-Factor Authentication",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "dns-troubleshooting.md",
+        "title": "DNS Troubleshooting \u2014 dig, nslookup, and Common Failures",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "codec-compression.md",
+        "title": "Compressed Codecs \u2014 G.729, G.722, and Why Compression Matters",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "number-portability.md",
+        "title": "Number Portability and the LNP Database",
+        "module": "Module 1: Foundations",
+        "difficulty": "Beginner",
+        "word_limit": 300
+      },
+      {
+        "filename": "sip-architecture.md",
+        "title": "SIP Architecture \u2014 Endpoints, Proxies, Registrars, and B2BUAs",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "call-transfer.md",
+        "title": "Call Transfer \u2014 REFER and Replaces",
+        "module": "Module 1: Foundations",
+        "difficulty": "Advanced",
+        "word_limit": 300
+      },
+      {
+        "filename": "qos-limitations.md",
+        "title": "Quality of Service (QoS) \u2014 DSCP, Traffic Shaping, and Why It Mostly Doesn't Work on the Internet",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "dns-fundamentals.md",
+        "title": "DNS Fundamentals \u2014 Resolution, Records, and the Hierarchy",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "sample-lesson.md",
+        "title": "Advanced Call Routing Strategies",
+        "module": "ROUTING",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "voice-quality-metrics.md",
+        "title": "Voice Quality Metrics \u2014 MOS, PESQ, POLQA, and R-Factor",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "ethernet-layer2.md",
+        "title": "Ethernet and Layer 2 \u2014 Frames, MACs, VLANs, and Switching",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      },
+      {
+        "filename": "nat-traversal.md",
+        "title": "NAT Traversal for SIP and RTP \u2014 The Core Problem",
+        "module": "Module 1: Foundations",
+        "difficulty": "Intermediate",
+        "word_limit": 300
+      }
+    ],
+    "summary_files": [],
+    "total_public_files": 58,
+    "total_summaries": 0
+  },
+  "deployment_structure": {
+    "content/": "Truncated public content files",
+    "summaries/": "AI-generated summaries of advanced content",
+    "metadata/": "Deployment metadata and manifests"
+  }
+}
