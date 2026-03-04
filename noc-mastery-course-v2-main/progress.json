@@ -1,0 +1,8 @@
+{
+  "currentLesson": 1,
+  "totalLessons": 196,
+  "startedAt": "2026-02-23",
+  "schedule": ["08:00", "11:00", "14:00", "17:00", "20:00"],
+  "timezone": "Asia/Colombo",
+  "lessonsPerDay": 5
+}
